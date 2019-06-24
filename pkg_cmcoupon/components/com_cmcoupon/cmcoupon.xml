@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>CmCoupon</name>
+	<creationDate>2018-09-03</creationDate>
+	<author>Creative Momentum</author>
+	<copyright>Copyright (C) Creative Momentum - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>http://creativemomentum.uk</authorUrl>
+	<version>1.0</version>
+	<description>Cmcoupon - A coupon enhancement for your online shop</description>
+
+	<scriptfile>install.cmcoupon.php</scriptfile>
+
+	<administration>
+		<menu img="../administrator/components/com_cmcoupon/assets/images/cmcoupon-small.png">COM_CMCOUPON</menu>
+		<files folder="admin">
+			<folder>assets/</folder>
+			<folder>cmcoupon/</folder>
+			<folder>helper/</folder>
+			<filename>cmcoupon.php</filename>
+			<filename>config.xml</filename>
+			<filename>index.html</filename>
+		</files>
+		<languages folder="language/admin">
+			<language tag="en-GB">en-GB.com_cmcoupon.ini</language>
+			<language tag="en-GB">en-GB.com_cmcoupon.menu.ini</language>
+			<language tag="en-GB">en-GB.com_cmcoupon.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<media folder="media" destination="com_cmcoupon">
+		<folder>customers/</folder>
+		<folder>images/</folder>
+		<filename>index.html</filename>
+	</media>
+
+	<files folder="site">
+		<folder>assets/</folder>
+		<folder>models/</folder>
+		<folder>views/</folder>
+		<filename>cmcoupon.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+	</files>
+	
+	<languages folder="language/site">
+		<language tag="en-GB">en-GB.com_cmcoupon.ini</language>
+	</languages>
+
+</extension>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="vmcoupon">
+	<name>VMCoupon - CmCoupon</name>
+	<creationDate>2017-12-08</creationDate>
+	<author>Seyi Cmfadeju</author>
+	<copyright>Copyright (C) Seyi Cmfadeju - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>dev@cmfadeju.com</authorEmail>
+	<authorUrl>http://cmdev.com</authorUrl>
+	<version>2.0.2</version>
+	<description>CmCoupon for Virtuemart</description>
+	<files>
+		<filename plugin="cmcoupon">cmcoupon.php</filename>
+	</files>
+	<scriptfile>script.php</scriptfile>
+</extension>

@@ -1,0 +1,169 @@
+body.admin .subhead-collapse { display: none; }
+
+hr.wp-header-end { margin: 0; margin-bottom: 5px; }
+.widefat th.sortable,
+.widefat th.sorted {
+	padding: 0;
+}
+
+th.sortable a,
+th.sorted a {
+	display: block;
+	overflow: hidden;
+	padding: 8px;
+}
+
+th.sortable a span,
+th.sorted a span {
+	float: left;
+	cursor: pointer;
+	color: #0073aa;
+}
+
+.sorting-indicator {
+    display: inline-block;
+    visibility: hidden;
+    width: 6px;
+    margin-left: 7px;
+}
+
+th.sorted.asc .sorting-indicator:before,
+th.desc:hover span.sorting-indicator:before,
+th.desc a:focus span.sorting-indicator:before {
+font-family: FontAwesome;	content: "" 
+}
+
+th.sorted.desc .sorting-indicator:before,
+th.asc:hover span.sorting-indicator:before,
+th.asc a:focus span.sorting-indicator:before {
+	font-family: FontAwesome;content: ""
+}
+.fixed .column-comments .sorting-indicator {
+	margin-top: 3px;
+}
+
+th.sorted .sorting-indicator,
+th.desc:hover span.sorting-indicator,
+th.desc a:focus span.sorting-indicator,
+th.asc:hover span.sorting-indicator,
+th.asc a:focus span.sorting-indicator {
+	visibility: visible;
+}
+
+
+
+
+.wp-list-table {
+	width: 100%;
+}
+.widefat thead td, .widefat thead th {
+	border-bottom: 1px solid #e1e1e1;
+	line-height: 1.4em;
+	font-size: 13px;
+	font-weight: bold;
+	overflow-wrap: break-word;
+	white-space: nowrap;
+	color: #656565;
+}
+.wp-list-table td, .wp-list-table th {
+	vertical-align: top;
+	padding: 8px 10px;
+	border-bottom: solid 1px #EAEDEF;
+	color: #555;
+}
+
+#cmmenu_container .navbar-inner { padding-top: 0; padding-bottom: 0; }
+
+.aw-input:after { content: ""; display: table; clear: both; }
+
+#cm-main select, #cm-main textarea, #cm-main input {
+	margin-bottom: 0;
+}
+#cm-main select {
+	width: auto;
+}
+
+
+
+
+
+#cm-main .page-title-action {
+	min-width: 148px;
+	line-height: 24px;
+	padding: 0 10px;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: #fff;
+	background-color: #46a546;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	font-size: 12px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: auto 0;
+}
+#cm-main .page-title-action:hover,
+#cm-main .page-title-action:focus {
+	background-color: #2f6f2f;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+#cm-main .page-title-action:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+.submitpanel {
+	margin-top: 10px;
+}
+.submitpanel h1, h1.wp-heading-inline {
+	line-height: 32px;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+fieldset.inline-edit-col-left {
+	width: 40%;
+	font-size: 12px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+#cm-main .button-apply {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	border: 1px solid #378137;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: #fff;
+	background-color: #46a546;
+	padding:5px 10px;
+}
+#cm-main .button-apply:hover,
+#cm-main .button-apply:focus {
+	background-color: #2f6f2f;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#cm-main .button-save {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	border: 1px solid #378137;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: #fff;
+	background-color: #cf9220;
+	padding:5px 10px;
+}
+#cm-main .button-save:hover,
+#cm-main .button-save:focus {
+	background-color: #b5801d;
+	color: #fff;
+	text-decoration: none;
+}
+

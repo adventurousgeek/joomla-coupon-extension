@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" method="upgrade" client="site" version="2.5">
+	<name>CM Coupon</name>
+	<packagename>cmcoupon</packagename>
+	<version>1.0</version>
+	<creationDate>April 2018</creationDate>
+	<copyright>Copyright (C) 2018 Creative Momentum</copyright>
+	<license>Commercial http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only</license>
+	<authorEmail>ekerner@ekerner.com</authorEmail>
+	<author>eKerner.com - technical developer</author>
+	<authorUrl>http://www.ekerner.com/</authorUrl>
+	<packager>shop@ekerner.com</packager>
+	<description>Virtuemart CM Coupon</description>
+	<files folder="packages">
+		<file type="component" id="com_vcmcoupon">com_cmcoupon.zip</file>
+		<file type="plugin" id="cmcoupon" group="vmshipment">plg_vmshipment_cmcoupon.zip</file>
+		<file type="plugin" id="cmcoupon" group="vmpayment">plg_vmpayment_cmcoupon.zip</file>
+		<file type="plugin" id="cmcoupon" group="vmcalculation">plg_vmcalculation_cmcoupon.zip</file>
+		<file type="plugin" id="cmcoupon" group="vmcoupon">plg_vmcoupon_cmcoupon.zip</file>
+		<file type="plugin" id="cmcoupon" group="system">plg_system_cmcoupon.zip</file>
+	</files>
+</extension>

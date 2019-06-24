@@ -1,0 +1,9 @@
+/*
+ * @title	VM Coupon
+ * @version	1.0
+ * @package	Joomla
+ * @author	ekerner@ekerner.com
+ * @website	http://www.ekerner.com
+ * @license	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ * @copyright	Copyright (C) 2019 Creative Momentum
+ */

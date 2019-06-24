@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" method="upgrade" group="hikashop" >	
+	<name>Hikashop - CmCoupon</name>
+	<creationDate>2017-01-21</creationDate>
+	<author>Seyi Cmfadeju</author>
+	<copyright>Copyright (C) Seyi Cmfadeju - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>dev@cmfadeju.com</authorEmail>
+	<authorUrl>http://cmdev.com</authorUrl>
+	<version>2.0.3</version>
+	<description>CmCoupon for Hikashop</description>
+	<files>
+		<filename plugin="cmcoupon">cmcoupon.php</filename>
+	</files>
+</install>

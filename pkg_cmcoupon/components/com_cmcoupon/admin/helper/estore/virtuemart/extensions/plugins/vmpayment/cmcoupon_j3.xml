@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="vmpayment">
+	<name>VMPayment - CmCoupon</name>
+	<creationDate>2017-09-20</creationDate>
+	<author>Seyi Cmfadeju</author>
+	<copyright>Copyright (C) Seyi Cmfadeju - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>dev@cmfadeju.com</authorEmail>
+	<authorUrl>http://cmdev.com</authorUrl>
+	<version>3.0.0</version>
+	<description>CmCoupon for Virtuemart - automatically trigger discount coupons</description>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_vmpayment_cmcoupon.ini</language>
+        <language tag="ru-RU">language/ru-RU/ru-RU.plg_vmpayment_cmcoupon.ini</language>
+    </languages>
+	<files>
+		<filename plugin="cmcoupon">cmcoupon.php</filename>
+        <folder>language</folder>
+	</files>
+	<scriptfile>script.php</scriptfile>
+	
+	<vmconfig>
+		<fields name="params">
+			<fieldset name="r20" label="VMPAYMENT_CMCOUPON_LABEL" description="" >
+				<field type="vmtitle" description ="VMPAYMENT_CMCOUPON_WARNING" />
+			</fieldset>	
+		</fields>
+	</vmconfig>
+</extension>

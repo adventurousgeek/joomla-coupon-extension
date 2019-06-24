@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CMCOUPON_MENU_TITLE_GIFTCERT_LIST">
+            <message><![CDATA[COM_CMCOUPON_MENU_DESC_GIFTCERT_LIST]]></message>
+	</layout>
+	<state>
+		<name>COM_CMCOUPON_MENU_TITLE_GIFTCERT_LIST</name>
+		<description><![CDATA[COM_CMCOUPON_MENU_DESC_GIFTCERT_LIST]]></description>
+	</state>
+</metadata>
